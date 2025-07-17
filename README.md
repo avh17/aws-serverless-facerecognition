@@ -6,6 +6,9 @@ This project implements a serverless face recognition service using AWS Lambda, 
 
 ## Architecture
 
+<img width="1788" height="596" alt="image" src="https://github.com/user-attachments/assets/255653f2-2419-4a8f-b1ef-4097f495c1aa" />
+
+
 The system consists of two main Lambda functions connected via SQS queues:
 
 1. **Face Detection Function** (`face-detection`)
