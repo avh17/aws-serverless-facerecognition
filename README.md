@@ -49,11 +49,11 @@ The system consists of two main Lambda functions connected via SQS queues:
 
 Create two SQS queues in the US-East-1 region:
 
-1. **Request Queue**: `<ASU-ID>-req-queue`
+1. **Request Queue**: `-req-queue`
    - Used by face-detection Lambda to send detected faces
    - Triggers the face-recognition function
 
-2. **Response Queue**: `<ASU-ID>-resp-queue`
+2. **Response Queue**: `-resp-queue`
    - Used by face-recognition Lambda to send results
    - Polled by clients for classification results
 
